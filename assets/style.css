@@ -822,4 +822,23 @@ line-height: 1rem;
             margin-right: 4.5rem;
         }
         /*  Footer Section  */
-        
+        footer {
+            width: 100%;
+            height: 68vmin;
+        }
+        footer a img {
+            width: 100%;
+            margin-left: 28rem;
+        }
+        #footer-section .column {
+            margin-left: 5.7rem;
+        }
+        #footer-section .column li {
+            font-size: 2.5vmin;
+        }
+        #footer-section .list h1 {
+            font-size: 2.5vmin;
+        }
+        .footer-end h2 {
+            padding-left: 24rem;
+        }
