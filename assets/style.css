@@ -295,7 +295,7 @@ a:hover {
 /* Footer Section - contact info */
 
 footer {
-    height: 80vh;
+    height: 74vh;
     width: 100%;
     background-color: #FAD02C;
 }
@@ -313,15 +313,17 @@ footer a img {
 }
 #footer-section {
     width: 100%;
-    margin: 50px 0;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    align-content: center;
 }
 #footer-section .column {
-    display: flex;
-    align-content: center;
     line-height: 1.5rem; 
+    justify-content: space-evenly;
 }
 .column {
-    margin: 0 0 2.5rem 8.6rem;
+    margin: 0 0 2rem 8.6rem;
 }
 .column h1 {
     font-size: 3vmin;
@@ -338,17 +340,11 @@ line-height: 1rem;
 #footer-links {
     line-height: 2rem;
 }
-
-/* copyright Section */
-
-#copyright-section {
+.footer-end {
     width: 100%;
-    overflow: hidden;
-}
-#copyright-section .footer-end h2 {
-    width: 100%;
+    height: 50px;
     max-width: 1400px;
-    display: flex;
+    display: block;
 }
 .footer-end h2 {
     font-size: 15px;
@@ -360,14 +356,13 @@ line-height: 1rem;
     align-items: center;
     align-content: center;
     padding-left: 31rem;
+    padding-top: 0.6rem;
 }
-#copyright-section hr {
-    display: flex;
-    height: 2px;
+#copyright-line {
+    display: block;
+    border: 3px solid #F8FAF9;
     width: 100%;
     max-width: 1400px;
-    background-color: #F8FAF9;
-    border-color: transparent;
     margin: 0;
 }
 /* Menu section  and text-overlay */
@@ -828,5 +823,3 @@ line-height: 1rem;
         }
         /*  Footer Section  */
         
-    
-    
