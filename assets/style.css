@@ -842,9 +842,10 @@ line-height: 1rem;
         .footer-end h2 {
             padding-left: 25rem;
         }
-        */ Menu Page - Menu Section /*
+        /* Menu Page/Menu Section /*
         #menu-text {
             font-size: 4vmin;
         }
         .menu-end-part a {
-            margin-left: 28rem;
+            margin-left: 20rem;
+        }
