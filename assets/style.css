@@ -778,9 +778,10 @@ line-height: 1rem;
     margin: 10px 0;
 }
 
-/*  Media Queries  */
+/*  Media Queries Section */
 
 /* For larger to medium screens size from 1200px and wide and down */
+
 @media screen and (max-width: 1200px) {
 
     /*  From index page - Hero Section  */
