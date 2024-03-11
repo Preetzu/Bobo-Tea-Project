@@ -1824,86 +1824,29 @@ font-size: 3.3vmin;
         width: 400px; 
         margin: 1.5rem 0; 
     }
-
-     /* Milk Tea Section */
     
-     .container-milk {
+     /*  Milk Series  */
+
+    #head-menu {
+        font-size: 7vmin;
+    }
+
+    .milk-series {
+        font-size: 5vmin;
+    }
+
+    .container-milk {
         display: flex;
-        flex-direction: column;
-        align-items: center; /* Center align items */
-    }
-    .milk-tea,
-    .fruit-tea,
-    .slush-tea,
-    .smoothies-tea {
-        width: 100%; /* Set width to 100% for single column */
-        margin-bottom: 1rem; /* Added margin to create space between items */
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-
-    /* Gallery Section */
-
-    .bubble-partea h2 {
-        font-size: 3vmin;
+    .milk-tea {
+        width: 45%; /* Adjust width as needed */
+        margin: 10px; /* Add margin between items */
     }
 
-    .gif-partea img {
-        width: 100px;
-        height: 100px;
-    }
-
-    #gallery img {
-        width: 250px;
-        height: 250px;
-        margin: 10px 0;
-    }
-
-    /* Form Page */
-
-
-
-    /* Header and Navbar */
-   
-    .toggle-menu {
-        position: absolute;
-        width: 25px;
-        height: 100%;
-    }
-            
-    .header {
-        padding: 10px 20px;
-        background-color: #06141B;
-    }
-
-    .menu {
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        background-color:#FAD02C;
-        color:#F8FAF9;
-        width: 200px;
-        height: 100%;
-        padding-top: 100px;
-    }
-    .menu li {
+    .img-milktea {
         width: 100%;
     }
-    .menu li a {
-        padding: 30px;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-    }
-    .menu li a:hover {
-        padding: 30px;
-        font-size: 24px;
-        cursor: pointer;
-        color: #0000FF;
-        box-shadow: #C55FFC 3px 3px 6px 0px inset,
-        #ffffff80 -3px -3px 6px 1px inset;
-    }
-    
-    
+}
